@@ -6,7 +6,7 @@ Shery.makeMagnet(".magnet-target" /* Element to target.*/, {
   });
 var h1s=document.querySelectorAll("h1");
 var index=0;
-document.querySelector(".main").addEventListener("click",()=>{
+document.querySelector(".elm").addEventListener("click",()=>{
     gsap.to(h1s[index],{
         top:"-=100%",
         ease:Expo.easeInOut,
