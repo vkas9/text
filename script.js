@@ -1,9 +1,9 @@
-Shery.imageEffect(".back",{style:2});
-Shery.makeMagnet(".magnet-target" /* Element to target.*/, {
-    //Parameters are optional.
-    ease: "cubic-bezier(0.23, 1, 0.320, 1)",
-    duration: 1,
-  });
+// Shery.imageEffect(".back",{style:2});
+// Shery.makeMagnet(".magnet-target" /* Element to target.*/, {
+//     //Parameters are optional.
+//     ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+//     duration: 1,
+//   });
 var h1s=document.querySelectorAll("h1");
 var index=0;
 document.querySelector(".elm").addEventListener("click",()=>{
