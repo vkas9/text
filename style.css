@@ -49,16 +49,18 @@ body{
     color:white;
     transition:all .1s;
     letter-spacing: 2px;
-    background-color: rgba(0, 0, 255, 0.671);
+    background-color: rgb(1, 1, 69);
+    
     padding:8px;
     border-radius: 3px;
 }
 .nleft a:hover,.nright a:hover{
     color:white;
-    background-color: rgb(1, 1, 69);
+    background-color: rgba(0, 0, 255, 0.671);
 }
 .nleft a:active,.nright a:active{
-    background-color:blue;
+    background-color: rgb(1, 1, 69);
+    
 }
 .nleft,.nright{
     display:flex;
@@ -168,6 +170,7 @@ a:hover{
     width:11vw;
     border-radius: 50%;
     opacity: .7;
+    box-shadow: 3px 3px 40px rgba(255, 255, 255, 0.281);
 }
 .back img{
     background-size: cover;
