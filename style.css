@@ -74,6 +74,7 @@ body{
 .nav{
     display:flex;
     justify-content:space-between;
+    /* border:1px solid red; */
 }
 
 .hero{
@@ -165,12 +166,14 @@ a:hover{
     background-color: white;
     color:black;
 }
-.hright .gif img{
+.nav .gif img{
     height:100%;
-    width:11vw;
+    width:8vw;
     border-radius: 50%;
-    opacity: .7;
-    box-shadow: 3px 3px 40px rgba(255, 255, 255, 0.281);
+    /* opacity: .7; */
+    padding: 5px;
+    /* box-shadow: 3px 3px 40px rgba(255, 255, 255, 0.281); */
+    
 }
 .back img{
     background-size: cover;
